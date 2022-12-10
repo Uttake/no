@@ -1,0 +1,35 @@
+.header {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        
+    }
+
+    &__logo-link {
+        @include adaptivFont(18, 14);
+        text-align: center;
+    }
+
+    &__list {
+    }
+
+    &__items {
+        display: flex
+    }
+
+    &__item {
+    }
+
+    &__link {
+    }
+
+    &__info {
+    }
+
+    &__btn {
+    @extend %btn;
+    max-width: 201px;
+    }
+}
